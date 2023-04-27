@@ -47,7 +47,7 @@ const soccerPlayer = new Swiper('.swiper-container', {//'swiper-container' 클�
 
 });
 
-fetch('../data.json')
+fetch('https://dudwlswmd.github.io/Dortmund/data.json')
         .then(response => response.json())//json을 스크립트로 활용할수있게 만든다
         .then(soccer => {
             soccer.data.forEach((elLi)=>{
