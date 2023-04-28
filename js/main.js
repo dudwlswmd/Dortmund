@@ -528,67 +528,68 @@ let backBtn = document.querySelectorAll('.backBtn');
 
 
 //플레이어
-  var players = new Swiper({
-    el: '.swiper-container.players',
-    slidesPerView : 8,
-    slides:13,
-    initialSlide: 0,
-    spaceBetween: 0,// 슬라이드간 간격/
-    //slidesPerGroup:5,// 그룹으로 묶을 수, slidesPerView 와 같은 값을 지정하는게 좋음
-    //slidesPerView: 2,
-    centeredSlides: false,
-    slideToClickedSlide: true,
-    grabCursor: true,
-    scrollbar: {
-        el: '.swiper-scrollbar',
-    },
-    mousewheel: {
-        enabled: true,
-    },
+  // var players = new Swiper({
+  //   el: '.swiper-container.players',
+  //   slidesPerView : 8,
+  //   slides:1,
+  //   initialSlide: 0,
+  //   slideToClickedSlide : false, // 해당 슬라이드 클릭시 슬라이드 위치로 이동
+  //   loop : false,   // 슬라이드 반복 여부
+  //   spaceBetween: 0,// 슬라이드간 간격/
+  //   slidesPerGroup:1,// 그룹으로 묶을 수, slidesPerView 와 같은 값을 지정하는게 좋음
+  //   //slidesPerView: 2,
+  //   centeredSlides: false,
+  //   grabCursor: false,
+  //   scrollbar: {
+  //       el: '.swiper-scrollbar',
+  //   },
+  //   mousewheel: {
+  //       enabled: true,
+  //   },
     
-    keyboard: {
-        enabled: true,
-    },
-    // pagination: {
-    //     el: '.swiper-pagination',
-    // },
-    navigation: {
-        nextEl: '.swiper-button-next.players',
-        prevEl: '.swiper-button-prev.players',
-    },
+  //   keyboard: {
+  //       enabled: true,
+  //   },
+  //   // pagination: {
+  //   //     el: '.swiper-pagination',
+  //   // },
+  //   navigation: {
+  //       nextEl: '.swiper-button-next.players',
+  //       prevEl: '.swiper-button-prev.players',
+  //   },
   
-    on:{
-      init:function(){
-    //     importData();
+  //   on:{
+  //     init:function(){
+  //   //     importData();
     
-      }
-    },
+  //     }
+  //   },
   
-    breakpoints: {
-      // 화면의 넓이가 1500px 이상일 때
-      1500: {
-        slidesPerView: 6,
-        spaceBetween: 0
-      },
-      1000: {
-        slidesPerView: 4,
-        spaceBetween: 0
-      },
-      850: {
-        slidesPerView: 3,
-        spaceBetween: 0
-      },    
-      700: {
-        slidesPerView: 2,
-        spaceBetween: 0
-      },
-      500: {
-        slidesPerView: 1,
-        spaceBetween: 0
-      },
-    }
+  //   breakpoints: {
+  //     // 화면의 넓이가 1500px 이상일 때
+  //     1500: {
+  //       slidesPerView: 6,
+  //       spaceBetween: 0
+  //     },
+  //     1000: {
+  //       slidesPerView: 4,
+  //       spaceBetween: 0
+  //     },
+  //     850: {
+  //       slidesPerView: 3,
+  //       spaceBetween: 0
+  //     },    
+  //     700: {
+  //       slidesPerView: 2,
+  //       spaceBetween: 0
+  //     },
+  //     500: {
+  //       slidesPerView: 1,
+  //       spaceBetween: 0
+  //     },
+  //   }
   
-  });
+  // });
   
 
 
